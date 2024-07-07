@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>829</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>无人机航迹规划系统</string>
+  </property>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>-60</x>
+     <y>-60</y>
+     <width>951</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>blue_label.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>73</x>
+     <y>171</y>
+     <width>721</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>function1.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>731</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+                      font-size: 16px;
+                      padding: 10px;
+                      border-radius: 5px;
+                      background-color: #4CAF50;
+                      color: white;
+                      }
+                      QPushButton:hover {
+                      background-color: #45a049;
+                      }</string>
+      </property>
+      <property name="text">
+       <string>配置设置</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+                      font-size: 16px;
+                      padding: 10px;
+                      border-radius: 5px;
+                      background-color: #4CAF50;
+                      color: white;
+                      }
+                      QPushButton:hover {
+                      background-color: #45a049;
+                      }</string>
+      </property>
+      <property name="text">
+       <string>任务点设置</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+                      font-size: 16px;
+                      padding: 10px;
+                      border-radius: 5px;
+                      background-color: #4CAF50;
+                      color: white;
+                      }
+                      QPushButton:hover {
+                      background-color: #45a049;
+                      }</string>
+      </property>
+      <property name="text">
+       <string>航迹显示图</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
